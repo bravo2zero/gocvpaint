@@ -13,6 +13,8 @@ go build
 ```
 
 ## Usage
+![Input](img/input.jpeg)
+![Output](img/output.jpeg)
 ```
 # get usage info
 gocvpaint -h
