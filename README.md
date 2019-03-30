@@ -7,8 +7,17 @@ Tiny command line tool to create coloring pictures, it extracts black contours f
 * GoCV & OpenCV 4.0.1 installed (check out [gocv.io](https://gocv.io/getting-started) page for details)
 
 ## Build
-TBD
+```
+go get github.com/bravo2zero/gocvpaint
+go build
+```
 
 ## Usage
-TBD
+```
+# get usage info
+gocvpaint -h
+
+# process input.jpeg into output.jpeg and display input/output
+gocvpain -i input.jpeg -o output.jpeg -d
+```
 
